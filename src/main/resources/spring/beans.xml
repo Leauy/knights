@@ -9,4 +9,9 @@
     <bean id="quest" class="com.nsfocus.knights.SlayDragonQuest">
         <constructor-arg value="#{T{System}.out" />
     </bean>
+
+    <bean id="sgtPeppers" class="com.nsfocus.music.SgtPeppers">
+        <constructor-arg name="title" value="${dist.title}" />
+        <constructor-arg name="artist" value="${dist.artist}" />
+    </bean>
 </beans>
